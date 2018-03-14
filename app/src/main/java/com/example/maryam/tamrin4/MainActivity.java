@@ -1,4 +1,4 @@
-package com.example.maryam.tamrin3;
+package com.example.maryam.tamrin4;
 
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
@@ -13,8 +13,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Typeface d = Typeface.createFromAsset(getAssets(),"fonts/digital7.otf");
         TextView txt1 = (TextView)findViewById(R.id.txt1);
-        TextView txt2 = (TextView)findViewById(R.id.txt2);
+        TextView txt3 = (TextView)findViewById(R.id.txt3);
         txt1.setTypeface(d);
-        txt2.setTypeface(d);
+        txt3.setTypeface(d);
     }
 }
