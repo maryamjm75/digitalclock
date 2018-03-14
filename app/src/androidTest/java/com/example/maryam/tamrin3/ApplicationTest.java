@@ -1,4 +1,4 @@
-package com.example.maryam.tamrin4;
+package com.example.maryam.tamrin3;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
